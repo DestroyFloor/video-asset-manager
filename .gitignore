@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------- 构建输出
+build/
+build*/
+out/
+cmake-build-*/
+
+# 编译产物
+*.exe
+*.dll
+*.dll.a
+*.lib
+*.a
+*.o
+*.obj
+*.pdb
+*.ilk
+moc_*
+qrc_*
+ui_*
+*.qmlc
+*.jsc
+
+# ---------------------------------------------------------------- Qt Creator
+.qtcreator/
+*.user
+CMakeLists.txt.user*
+*.autosave
+
+# ---------------------------------------------------------------- 第三方二进制依赖
+# 构建前自行放入，说明见 third_party/mpv/README.md
+third_party/mpv/*
+!third_party/mpv/README.md
+third_party/ffmpeg/
+
+# ---------------------------------------------------------------- 其它
+*.zip
+*.7z
+Thumbs.db
+Desktop.ini
+.DS_Store
